@@ -1,0 +1,23 @@
+tri tabele country, club i player 
+  country(id, name, code)
+	
+  club(id, name, country_id, budget)
+
+  player(id, name, surname, club_id, country_id, 
+
+
+1. COUNTRY
+2. CLUB
+3. PLAYER
+0. EXIT
+
+
+COUNTRY:
+1. GET ALL COUNTRIES
+2. GET COUNTRY BY NAME
+3. INSERT COUNTRY
+4. UPDATE COUNTRY
+5. DELETE COUNTRY
+0. EXIT
+
+
