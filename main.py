@@ -11,6 +11,7 @@ cursor = db.cursor()
 cursor.execute("INSERT INTO country (name, code) VALUES ('Srbija', 'Srb')")
 cursor.execute("INSERT INTO country (name, code) VALUES ('Francuska', 'Fra')")
 cursor.execute("INSERT INTO country (name, code) VALUES ('Hrvatska', 'Hrv')")
+cursor.execute("INSERT INTO country (name, code) VALUES ('Engleska', 'Eng')")
 
 dict_level = 0
 
