@@ -3,7 +3,7 @@ tri tabele country, club i player
 	
   club(id, name, country_id, budget)
 
-  player(id, name, surname, club_id, country_id, 
+  player(id, name, surname, club_id, country_id)
 
 
 1. COUNTRY
