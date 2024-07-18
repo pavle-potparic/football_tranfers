@@ -8,9 +8,9 @@ country_menu = {1: 'GET ALL COUNTRIES', 2: 'GET COUNTRY BY NAME', 3: 'INSERT COU
 
 db = sqlite3.connect('football_transfers.sqlite')
 cursor = db.cursor()
-cursor.execute("INSERT INTO country (name, code) VALUES ('Srbija', 'Srb')")
-cursor.execute("INSERT INTO country (name, code) VALUES ('Francuska', 'Fra')")
-cursor.execute("INSERT INTO country (name, code) VALUES ('Hrvatska', 'Hrv')")
+cursor.execute("INSERT INTO country (name, code) VALUES ('Serbia', 'SRB')")
+cursor.execute("INSERT INTO country (name, code) VALUES ('France', 'FRA')")
+cursor.execute("INSERT INTO country (name, code) VALUES ('Croatia', 'CRO')")
 cursor.execute("INSERT INTO country (name, code) VALUES ('Engleska', 'Eng')")
 
 dict_level = 0
